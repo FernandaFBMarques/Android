@@ -29,8 +29,6 @@ dependencies {
     implementation project(path: ':feature-toggles-api')
     implementation project(path: ':common-utils')
 
-    implementation "io.github.fernandafbmarques:cookies-kmp-core:0.1.4"
-
     implementation AndroidX.core.ktx
 
     implementation "com.squareup.logcat:logcat:_"
@@ -38,6 +36,7 @@ dependencies {
 
     // Room
     implementation AndroidX.room.runtime
+    implementation AndroidX.room.ktx
     implementation AndroidX.room.rxJava2
     ksp AndroidX.room.compiler
 
